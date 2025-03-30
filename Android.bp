@@ -7867,6 +7867,9 @@ android_app_import {
     name: "CneApp",
     owner: "nubia",
     apk: "proprietary/vendor/app/CneApp/CneApp.apk",
+    required: [
+        "CneApp.libvndfwk_detect_jni.qti_symlink",
+    ],
     certificate: "platform",
     dex_preopt: {
         enabled: false,
