@@ -252,6 +252,7 @@ PRODUCT_PACKAGES += \
     libspl \
     libssd \
     libsystem_health_mon \
+    libteeclientjni \
     libthermalioctl \
     libtime_genoff \
     libtinyxml2_1 \
@@ -263,6 +264,8 @@ PRODUCT_PACKAGES += \
     qtibus \
     qtimutex \
     sensors.oem \
+    vendor.nubia.ifaa@1.0-impl \
+    vendor.nubia.ifaa@1.0 \
     vendor.qti.data.factory@2.0 \
     vendor.qti.data.factory@2.1 \
     vendor.qti.data.factory@2.2 \
