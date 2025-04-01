@@ -8388,19 +8388,17 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "android.hardware.drm@1.2-service.widevine",
+    name: "android.hardware.drm@1.1-service.widevine",
     owner: "nubia",
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/bin/hw/android.hardware.drm@1.2-service.widevine",
+                "proprietary/vendor/bin/hw/android.hardware.drm@1.1-service.widevine",
             ],
             shared_libs: [
                 "android.hardware.drm@1.0",
                 "android.hardware.drm@1.1",
-                "android.hardware.drm@1.2",
                 "libbase",
-                "libhidlbase",
                 "libhidltransport",
                 "libhwbinder",
                 "liblog",
